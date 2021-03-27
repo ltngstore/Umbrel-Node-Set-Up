@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+1. Set up a Lightning node via Umbrel.
 
-You can use the [editor on GitHub](https://github.com/ltngstore/node/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Buy all this shit (Should be under $250):
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Raspberry Pi 4 
+- 1 TB SSD
+- SSD Enclosure
+- 16 GB+ microSD (+ Card reader if your computer doesn't have one)
+- Official Raspberry Pi Power Supply
+- Ethernet Cable
+- Case
 
-### Markdown
+2. Put all that shit together!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is pretty self explanatory, but check out YouTube if you get stuck.
 
-```markdown
-Syntax highlighted code block
+3. Download Umbrel on your computer
 
-# Header 1
-## Header 2
-### Header 3
+4. Download Balena Etcher
 
-- Bulleted
-- List
+5. Plug the microSD card in your computer
 
-1. Numbered
-2. List
+6. Flash Umbrel OS
 
-**Bold** and _Italic_ and `Code` text
+- Flash from file (Unzip and select downloaded Umbrel file)
+- Select target (microSD drive)
+- FLASH!
 
-[Link](url) and ![Image](src)
-```
+7. Insert microSD card in the Pi
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+8. Connect the SSD
 
-### Jekyll Themes
+9. Connect to your router.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ltngstore/node/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+10. Turn that shit on!
 
-### Support or Contact
+11. After 5-10 minutes, go to http://umbrel.local on any device connected to the same network. If this doesn't work, find IP address with Angry IP scanner and enter that address directly (example http://192.168.1.420)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+12. Follow onscreen instructions and wait for Bitcoin core to sync.. This could take up to a week. Once it hits 100%, come back for the next section.
