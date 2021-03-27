@@ -1,4 +1,4 @@
-# Setting up your node
+# Setting up your Umbrel Node
 
 1. Set up a Lightning node via Umbrel.
 
